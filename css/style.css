@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+   
+}
+
+
+/*----------------------- start  nav ---------------------*/
+.navbar{
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 988;
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-item{
+    margin-left: 10px;
+    color: #333;
+    
+}
+
+.navbar a:hover{
+   color: #6c7ae0;
+   transition: all 0.2s ease;
+}
+.navbar .text-reset{
+    font-size: 20px;
+    color: #333;
+}
+
+.navbar i:hover{
+    color: #6c7ae0;
+    transition: all 0.1s ease;
+}
+.navbar span{
+  color:#fff ;
+  position: relative;
+  top: -15px;
+  right: -10px;
+  background-color: #6c7ae0;
+  border-radius: 5px;
+  font-size: 15px;
+ 
+
+}
+
+
+/*----------------------- End  nav ---------------------*/
+
+/* ----------------- start shopping cart -------------- */
+.shoppingcart{
+   width: 400px;
+   height: 100vh;
+   background-color: #fff;
+   position: fixed;
+   top: 0;
+   left: 100% ;
+   z-index:999 ;
+   transition: all 0.5s;
+}
+
+.shoppingcart .container{
+    width: 80%;
+    margin-top: 50px;
+}
+.shoppingcart .hadding{
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+}
+.shoppingcart .hadding i{
+    font-size: 30px;
+    transition: all 0.4s;
+  
+}
+.shoppingcart .hadding i:hover{
+    color: #6c7ae0;
+    cursor: pointer;
+    
+  
+}
+.shoppingcart .checkout{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    position: absolute;
+    bottom: 50px;
+
+   
+}
+.shoppingcart .checkout a{
+    background-color: #333;
+    border-radius: 23px;
+    font-size: 16px;
+    line-height: 1.466667;
+    color: #fff;
+    padding: 10px 35px;
+    transition: all 0.4s;
+    
+}
+.shoppingcart .checkout a:hover{
+    background-color: #717fe0;
+   
+}
+.shoppingcart .total{
+    position: absolute;
+    bottom: 150px;
+}
+
+.side .shoppingcart{
+    left: calc(100% - 400px) ;
+}
+.shoppingcart .listCart{
+    width: 300px;
+    height: 100%;
+    margin-top: 40px;
+
+ 
+}
+
+.shoppingcart .listCart a{
+    color: #555;
+    transition: all 0.4s;
+    
+
+}
+.shoppingcart .listCart a:hover{
+    color: #6c7ae0;
+
+}
+.shoppingcart .listCart button{
+  padding: 0px 7px;
+    background-color: #888;
+    border: transparent;
+    border-radius: 5px;
+    color: #222;
+    transition: all 0.4s;
+
+}
+.shoppingcart .listCart button:hover{
+    
+      background-color: #6c7ae0;
+     
+
+  
+  }
+ 
+.shoppingcart .products li{
+   list-style: none;
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.shoppingcart .products img{
+    width: 60px;
+ 
+    position: relative;
+    margin-right: 20px;
+    cursor: pointer;
+}
+/* !----------------- End shopping cart -------------- */
+
+
+
+/*----------------------- start section one ---------------------*/
+.sec1{
+    height: 700px;
+   margin-top: 30px;
+   /* position: relative; */
+  
+   
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.sec1 .swiper-button-prev{
+    color: #333;
+;
+}
+.sec1 .swiper-button-next{
+    color: #333;
+;
+}
+
+.sec1 .swiper .slide1{
+    height:700px;
+    margin-top: 30px;
+    background-image: url("../img/slide-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+
+}
+.sec1 .swiper  .text{
+    position: relative;
+    left: 150px;
+}
+
+.sec1 .swiper  .text span{
+    font-size: 28px;
+    line-height: 1.2857;
+   padding-bottom: 50px;
+}
+
+
+.sec1 .swiper  .text h2{
+    font-size: 60px;
+    line-height: 1.1;
+    text-transform: uppercase;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.sec1 .swiper  .text a{
+    background-color: #717fe0;
+    border-radius: 23px;
+    font-size: 20px;
+    line-height: 1.466667;
+    color: #fff;
+    padding: 12px 35px;
+    transition: all 0.4s;
+}
+
+
+.sec1 .swiper  .text a:hover{
+    background-color: #222;
+   
+    color: #fff;
+    
+}
+
+
+.sec1 .swiper .slide2{
+    height:700px;
+    margin-top: 30px;
+    background-image: url("../img/slide-02.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+
+}
+.sec1 .swiper .slide3{
+    height:700px;
+    margin-top: 30px;
+    background-image: url("../img/slide-03.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+
+
+}
+/*----------------------- End section one ---------------------*/
+
+/*----------------------- start section two ---------------------*/
+.sec2{
+    height: 400px;
+    margin-top: 40px;
+
+   
+}
+.sec2 .block1{
+    border: 1px solid #e6e6e6;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.1s;
+    
+}
+
+.sec2 .block1:hover .link{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+
+.sec2  .text{
+ position: absolute;
+  top: 20px;  
+  left: 40px;
+    
+}
+
+.sec2  .text h6{
+    font-size: 28px;
+    line-height: 1.1;
+    color: #333;
+}
+.sec2  .text p{
+    font-size: 14px;
+    line-height: 1.7;
+    color: #555;
+}
+.sec2 .block2{
+    border: 1px solid #e6e6e6;
+    height: 280px;
+    position: relative;
+    left: 10px; 
+    right: 10px; 
+    transition: all 0.09s ease;
+    overflow: hidden;
+ 
+}
+.sec2 .block2:hover .link{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+.sec2 .block3{
+    border: 1px solid #e6e6e6;
+    height: 280px;
+    position: relative;
+    overflow: hidden;
+
+      
+}
+.sec2 .block3:hover .link{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    transition: all 0.4s;
+    
+}
+.sec2  .link{
+    position: absolute;
+    bottom: -40px;
+    left: 40px;
+    border-bottom: 3px solid #6c7ae0;
+    transition: all 0.4s;
+
+}
+.sec2 .link a{
+color: #6c7ae0;
+}
+@media only screen and (max-width: 992px) {
+    .sec2{
+        height: 600px;
+        
+    
+       
+    }
+    .sec2 .block1 .block2 .block3 {
+      margin-top: 30px;
+        
+    }
+    .sec2  .block3 {
+        margin-top: 30px;
+          
+      }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .sec2{
+        height: 900px;
+        
+    
+       
+    }
+    .sec2  .block2  {
+      margin-top: 30px;
+        
+    }
+    .sec2  .block3 {
+        margin-top: 30px;
+          
+      }
+  }
+/*----------------------- End section two ---------------------*/
+
+
+
+
+/*----------------------- start section three ---------------------*/
+.sec3{
+    height: 2200px;
+    margin-top: 50px;
+}
+
+.sec3 .heading h3{
+    font-size: 36px;
+    font-family: Poppins-Bold;
+    line-height: 1.1;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.sec3 .buttons button{
+    margin-bottom: 70px;
+    margin-left: 20px;
+    border: transparent;
+    background-color: transparent;
+    color: #888;
+    transition: all 0.4s;
+}
+.sec3 .buttons .but1{
+    margin-left: 0;
+}
+
+.sec3 .buttons button:hover{
+    color: #333;
+    border-bottom: 1px solid #797979;
+   
+}
+
+.sec3 .text2 .link{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+
+.sec3 .text2 .link a{
+    color: #999;
+    transition: all 0.4s;
+}
+.sec3 .text2 .link i{
+  font-size: 18px;
+}
+
+.sec3 .text2 .link a:hover{
+    color: #007bff;
+}
+
+.sec3 .text2 p{
+  color: #666;
+  }
+  .sec3 .img {
+   overflow: hidden;
+   position: relative;
+}
+.sec3 .img:hover .view{
+    position: absolute;
+    bottom: 30px;
+    left: 22%;
+}
+.sec3 .img img{
+    transition: transform 0.9s ease;
+    transform: scale(1);
+    
+}
+.sec3 .img .view{
+    position: absolute;
+    bottom: -50px;
+    left: 22%;
+    z-index: 1;
+    transition: all 0.6s;
+}
+.sec3 .img .view a{
+    padding: 10px 40px;
+    border-radius: 23px;
+    font-size: 17px;
+    color: #222;
+    background-color: #e6e6e6;
+    border: transparent;
+}
+.sec3 .img .view a:hover{
+    color: #fff;
+    background-color: #222;
+}
+.sec3 .img img:hover{
+    transform: scale(1.06);
+}
+
+.sec3 .mainbtn {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    transition: all 0.4s;
+
+}
+
+.sec3 .mainbtn button{
+    padding: 10px 40px;
+    border-radius: 23px;
+    font-size: 17px;
+    color: #222;
+    background-color: #e6e6e6;
+    border: transparent;
+    
+}
+
+.sec3 .mainbtn button:hover{
+
+    color: #fff;
+    background-color: #222;
+   ;
+}
+
+@media only screen and (max-width: 992px) {
+    .sec3{
+        height: 4400px;
+        margin-top: 50px;
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+ 
+    .sec3{
+        height: 11800px;
+      
+    }
+    
+  }
+/*----------------------- End section three ---------------------*/
+
+
+
+/*----------------------- start footer  ---------------------*/
+footer{
+   
+    padding-top: 40px;
+    background-color: #222;
+    color: #fff;
+
+}
+footer input{
+    background-color: transparent;
+    width: 100%;
+    border: transparent;
+    border-bottom: 2px solid rgba(204,204,204, 0.1);
+    margin-top: 20px;
+}
+footer button{
+    border-radius: 30px;
+    background-color: #717fe0;
+    margin-top: 30px;
+    padding: 10px 40px;
+    border: transparent;
+    color: #fff;
+}
+ footer button:hover{
+    background-color: #fff;
+    color: #717fe0;
+ }
+ footer h6{
+    color: #fff;
+ }
+ footer p{
+    color: #b2b2b2;
+ }
+ footer i{
+    margin-right: 10px;
+    color: #b2b2b2;
+    font-size: 20px;
+ }
+/*-----------------------  start footer  ---------------------*/
